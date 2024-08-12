@@ -1,0 +1,7 @@
+modules = ["nodejs-20"]
+run = ".replit"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", ".replit"]
